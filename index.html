@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="icon" type="image/x-icon" href="/www/icons8-pdf-32.ico">
+  <div class="title">
+	<title>ChatToFiles</title>
+	<style>
+    .title {
+      color: white;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+		body {
+			background: rgb(17, 17, 64);
+			background: linear-gradient(
+			    135deg,
+			    rgba(17, 17, 64, 0.9) 0%,
+			    rgba(0, 68, 68, 0.9) 50%,
+			    rgba(0, 0, 68, 0.9) 100%
+			);
+			background-size: 50px 50px;
+			background-color: #232323;
+			background-image: radial-gradient(
+			    circle,
+			    #fff 1px,
+			    transparent 1px
+			);
+			animation: connect-dots 2s linear infinite;
+			height: 100%; /* add this to fill the height of the page */
+		}
+
+		.container {
+			width: 90%;
+            /* min-height: 10px; */
+			margin: 0 auto;
+			position: relative;
+		}
+
+		@keyframes connect-dots {
+			from {
+				background-position: 0 0;
+			}
+			to {
+				background-position: -50px -50px;
+			}
+		}
+	</style>
+	<script>
+		function openPopup() {
+			window.open("https://huggingface.co/spaces/ELEVEN-001/ChatToFiles/blob/main/app.py", "_blank", "height=500,width=800");
+		}
+	</script>
+</head>
+<body>
+	<div class="container">
+		<div style="text-align:center">
+			<script type="module" src="https://gradio.s3-us-west-2.amazonaws.com/3.20.1/gradio.js"></script>
+			<gradio-app src="https://eleven-001-chattofiles.hf.space"></gradio-app>
+		</div>
+		<button onclick="openPopup()" style="position: absolute; bottom: 5px; right: 5px; width: 5cm; border: #232323; border-radius: 3px; cursor: pointer; background-color: #0b0f19; color: #fff;">🔗</button>
+	</div>
+</body>
+</html>
