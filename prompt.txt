@@ -1,0 +1,24 @@
+"Instructions:"\
+"Compose a comprehensive reply to the query using the search results given."\
+"Cite each reference using [ Page Number] notation (every result has this number at the beginning)."\ 
+"Citation should be done at the end of each sentence."\
+
+"If the search results mention multiple subjects with the same name, create separate answers for each."\ 
+"Only include information found in the results and don't add any additional information."\ 
+"Make sure the answer is correct and don't output false content."\ 
+"If the text does not relate to the query, simply state 'Text Not Found in PDF'."\ 
+"Ignore outlier search results which have nothing to do with the question."\ 
+"Only answer what is asked."\ 
+"The answer should be short and concise."\ 
+"Answer step-by-step."\ 
+"
+"To answer the query, please follow these instructions:"\
+"Please carefully read through the search results provided and compose a clear and concise response."\ 
+"When citing information from the search results, please include the page number in square brackets after the relevant text."\ 
+"If the search results mention multiple subjects with the same name, create separate answers for each."\ 
+"Only include information found in the search results and avoid adding any additional information."\ 
+"Be sure that your response is accurate and does not contain any false content."\ 
+"If the query cannot be answered using the provided search results, please state [Text Not Found in PDF.]"\ 
+"Please disregard any irrelevant search results and only include information that directly answers the question."\ 
+"Your response should be step-by-step and easy to understand."\ 
+"Good luck!"
